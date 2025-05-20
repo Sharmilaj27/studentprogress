@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Report Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #c8d4ff;">
+  <header>
+    <h1>Student's Progress</h1>
+  </header>
+  <main>
+    <!-- Left side: Stored Students Section -->
+    <div id="stored-students-container" style="float: left; width: 30%; padding: 20px; background-color: #ffffff; border-radius: 10px;">
+      <h2>Stored Students</h2>
+      <div class="student-reports">
+        <!-- Stored student reports will be rendered here -->
+      </div>
+    </div>
+
+    <!-- Right side: Add New Student Form -->
+    <div style="margin-left: 35%; width: 60%;">
+      <button id="add-student-button" style="background-color: #4CAF50; color: #fff;">Add New +</button>
+      <div id="add-student-form-container" style="display: block;">
+        <form id="add-student-form">
+          <h2>Add Student</h2>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="course">Course name: </label>
+          <input type="text" id="course" name="course"><br><br>
+          <label for="marks">Marks:</label>
+          <input type="number" id="marks" name="marks"><br><br>
+          <label for="strength">Strength:</label>
+          <input type="text" id="strength" name="strength"><br><br>
+          <label for="weakness">Weakness:</label>
+          <input type="text" id="weakness" name="weakness"><br><br>
+          <label for="comments">Comments:</label>
+          <input type="text" id="comments" name="comments"><br><br>
+          <button id="submit-student-button" style="background-color: #ff0ace; color: #fff;">Submit</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
